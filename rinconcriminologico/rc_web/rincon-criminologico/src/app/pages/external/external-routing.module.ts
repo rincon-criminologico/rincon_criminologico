@@ -5,6 +5,7 @@ import { ExternalComponent } from './external.component';
 const routes: Routes = [
   {
     path: '',
+    redirectTo: 'home',
     component: ExternalComponent,
     children: [
       {
