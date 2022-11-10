@@ -1,5 +1,4 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -9,12 +8,26 @@ import { Router } from '@angular/router';
 export class HeaderComponent implements OnInit {
 
   @Input() isPhone = false;
+  @Input() isExternal = false;
+  @Input() isInternal = false;
   
-  constructor(
-    private readonly router: Router
-  ) { }
+  constructor() { }
 
   ngOnInit(): void {
+  }
+
+  goToHome() {
+    if (this.isExternal) {
+      // Ir al inicio portal externo
+    }
+
+    if (this.isInternal) {
+      // Ir al inicio portal interno si está logado el usuario.
+    }
+  }
+
+  initLogIn() {
+    console.log('Ir a la pantalla de Iniciar Sesión');
   }
 
 }
