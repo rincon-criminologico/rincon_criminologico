@@ -3,6 +3,7 @@ import { NgModule } from "@angular/core";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { FooterModule } from "../commons/footer/footer.module";
 import { HeaderModule } from "../commons/header/header.module";
+import { NavbarModule } from "../commons/navbar/navbar.module";
 
 @NgModule({
     declarations: [],
@@ -11,13 +12,15 @@ import { HeaderModule } from "../commons/header/header.module";
       FormsModule,
       ReactiveFormsModule,
       HeaderModule,
-      FooterModule
+      FooterModule,
+      NavbarModule
     ],
     exports: [
       FormsModule,
       ReactiveFormsModule,
       HeaderModule,
-      FooterModule
+      FooterModule,
+      NavbarModule
     ],
     providers: [],
     schemas: []
