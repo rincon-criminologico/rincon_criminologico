@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { DomSanitizer } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-home-slider',
@@ -7,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeSliderComponent implements OnInit {
 
-  constructor() { }
+  @Input() imageSlider!: string;
+  @Input() transitionTime!: string;
+
+
+  constructor(private readonly sanitizer: DomSanitizer) { }
 
   ngOnInit(): void {
   }
