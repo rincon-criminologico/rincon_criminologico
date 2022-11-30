@@ -1,14 +1,14 @@
-<div class="container">
-    <div class="burger-container" *ngIf="isPhone">
+<div class="container mw-100 h-25">
+    <div class="burger-container row" *ngIf="isPhone">
         <img class="burger" src="../../../../assets/img/header/burger.png">
         <img class="cross" src="../../../../assets/img/header/cross.png">
     </div>
-    <div class="logo" (click)="goToHome()">
+    <div class="logo row" (click)="goToHome()">
         <p>Rincón Criminológico</p>
     </div>
-    <div class="log-in" (click)="initLogIn()">
+    <div class="log-in row" (click)="initLogIn()">
         <p>Inicia sesión </p>
-        <img src="../../../../assets/img/header/login.png">
+        <!-- <img src="../../../../assets/img/header/login.png"> -->
     </div>
 </div>
 
