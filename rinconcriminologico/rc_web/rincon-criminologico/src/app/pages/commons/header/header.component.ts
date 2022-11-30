@@ -10,7 +10,7 @@ export class HeaderComponent implements OnInit {
   @Input() isPhone = false;
   @Input() isExternal = false;
   @Input() isInternal = false;
-  
+
   constructor() { }
 
   ngOnInit(): void {
