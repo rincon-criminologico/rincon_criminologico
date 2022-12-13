@@ -1,18 +1,57 @@
-.container {
-  // background-color: pink;
-}
+// .container {
+//   background-color: pink;
+// }
 
-.carousel-inner {
-  // height: 250px;
-  // padding: 60px;
-}
+// .carousel-inner {
+//   // height: 250px;
+//   // padding: 60px;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
 
 .carousel-item {
   // margin-left: 100px;
+  padding-top: 60px;
   transition: 6s;
-// } .meet-us {
+} h2, h5 {
+//   // margin-left: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 2px 2px #9f9f9f
+}
+
+.carousel-item button {
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+  width: 100px;
+  height: 40px;
+  background-color:#B40B37;
+  border-radius: 8px;
+  font-weight: bold;
+  color: #F7F4F3;
+  box-shadow: 3px 3px #9f9f9f;
+}
+
+.meet-us {
+  height: 350px;
+  background-color: pink;
   // background-image: url(../../../../../../assets/img/home-slider/meet-us.jpg);
-} img {
-  width: 4000px;
-  height: 400px;
+}
+
+.services {
+  height: 350px;
+  background-color: lightblue;
+  // background-image: url(../../../../../../assets/img/home-slider/services.jpg);
+}
+
+.contact-us {
+  height: 350px;
+  background-color: lightgreen;
+  // background-image: url(../../../../../../assets/img/home-slider/contact-us.jpg);
+  // } img {
+//   width: 4000px;
+//   height: 400px;
 }
