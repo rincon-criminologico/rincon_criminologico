@@ -1,0 +1,23 @@
+h2, h6 .introduction-text {
+    color: #2d010c;
+}
+
+.predel-box, .faqs-box, .contact-box {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #8ECFC1;
+    border-radius: 8px;
+    box-shadow: 4px 4px 5px #9f9f9f;
+    transition: 0.5s;
+} h3, p {
+    color: #2d010c;
+    font-weight: bold;
+}
+
+.predel-box:hover, .faqs-box:hover, .contact-box:hover {
+    transform: scale(1.2);
+} 
