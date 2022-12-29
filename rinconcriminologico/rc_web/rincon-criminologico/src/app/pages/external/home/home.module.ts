@@ -4,7 +4,7 @@ import { CommonModule } from '@angular/common';
 import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';
 import { SharedModule } from '../../shared/shared.module';
-import { HomeSliderModule } from './components/home-slider/home-slider.module';
+import { HomeCoverModule } from './components/home-cover/home-cover.module';
 
 
 @NgModule({
@@ -15,7 +15,7 @@ import { HomeSliderModule } from './components/home-slider/home-slider.module';
     CommonModule,
     HomeRoutingModule,
     SharedModule,
-    HomeSliderModule
+    HomeCoverModule
   ]
 })
 export class HomeModule { }

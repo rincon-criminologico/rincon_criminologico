@@ -8,8 +8,8 @@ const routes: Routes = [
     component: HomeComponent,
     children: [
       {
-        path: 'home-slider',
-        loadChildren: () => import('./components/home-slider/home-slider.module').then(m => m.HomeSliderModule)
+        path: 'home-cover',
+        loadChildren: () => import('./components/home-cover/home-cover.module').then(m => m.HomeCoverModule)
       }
     ]
   }
